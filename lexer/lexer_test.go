@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/PaulACoroneos/writing-an-interpreter-in-go/token"
+	"github.com/paulacoroneos/writing-an-interpreter-in-go/token"
 )
 
 func TestNextToken(t *testing.T) {
@@ -14,6 +14,7 @@ func TestNextToken(t *testing.T) {
 		expectedLiteral string
 	}{
 		{token.ASSIGN, "="},
+		{token.PLUS, "+"},
 		{token.LPAREN, "("},
 		{token.RPAREN, ")"},
 		{token.LBRACE, "{"},

@@ -9,7 +9,7 @@ type Token struct {
 
 const (
 	ILLEGAL TokenType = "ILLEGAL"
-	EDOT    TokenType = "EOF"
+	EOF     TokenType = "EOF"
 
 	// Identifiers + literals
 	IDENT TokenType = "IDENT"
